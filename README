@@ -2,4 +2,7 @@ To run this project:
 - Install MapR client on client machine 
 - Add  mapr-hbase external jar to the build path. 
 For e.g. if you are using 5.1 mapr client add /opt/mapr/lib/mapr-hbase-5.1-mapr.jar
-- Run CreateTable to create table in MapR Cluster
+- Add maprfs-5.1-mapr.jar as external jar to the build path
+- If the cluster is secure, add hadoop-auth-2.7.0.jar as an external jar
+- Run CreateTable for creating a table in MapR Cluster
+
